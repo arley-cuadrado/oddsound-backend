@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_social_media_social_medias",
+  "info": {
+    "displayName": "socialMedia"
+  },
+  "options": {},
+  "attributes": {
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "tiktok": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "x": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

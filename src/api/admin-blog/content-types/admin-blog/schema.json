@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admin_blogs",
+  "info": {
+    "singularName": "admin-blog",
+    "pluralName": "admin-blogs",
+    "displayName": "AdminBlog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "name": {
+      "type": "string"
+    },
+    "emailAdmin": {
+      "type": "email"
+    }
+  }
+}
