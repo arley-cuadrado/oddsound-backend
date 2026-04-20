@@ -4,6 +4,19 @@
     "displayName": "event"
   },
   "options": {},
-  "attributes": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "city": {
+      "type": "string"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "ticket": {
+      "type": "string"
+    }
+  },
   "config": {}
 }

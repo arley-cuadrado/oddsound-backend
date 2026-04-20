@@ -36,7 +36,12 @@ export interface EventEvent extends Struct.ComponentSchema {
   info: {
     displayName: 'event';
   };
-  attributes: {};
+  attributes: {
+    city: Schema.Attribute.String;
+    date: Schema.Attribute.Date;
+    ticket: Schema.Attribute.String;
+    venue: Schema.Attribute.String;
+  };
 }
 
 export interface SocialMediaSocialMedia extends Struct.ComponentSchema {
